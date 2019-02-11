@@ -10,19 +10,17 @@
   <default revision="morty" sync-j="2"/>
   
   <project name="fergy/meta-96boards" path="layers/meta-96boards" remote="github"/>
-  <project name="fergy/oe-rpb-manifest" path="layers/meta-rpb" remote="github"/>
+  <project name="fergy/oe-rpb-manifest" path="layers/meta-rpb" remote="github" branch="sc20"/>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github" revision="1b4f1e588b1901d8919ea2362b0fcba37c5023e0"/>
   <project name="cpriouzeau/meta-st-cannes2" path="layers/meta-st-cannes2" remote="github"/>
   <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="kraj/meta-clang" path="layers/meta-clang" remote="github"/>
   <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github"/>
-  <project name="fergy/meta-qcom" path="layers/meta-qcom" remote="github"/>
+  <project name="fergy/meta-qcom" path="layers/meta-qcom" remote="github" branch="sc20"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.32"/>
   <project name="openembedded/meta-backports" path="layers/meta-backports" remote="linaro"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
-
 </manifest>
-
