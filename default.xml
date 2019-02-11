@@ -10,7 +10,7 @@
   <default revision="master" sync-j="4"/>
   
   <project name="fergy/meta-96boards" path="layers/meta-96boards" />
-  <project name="fergy/oe-rpb-manifest" path="layers/meta-rpb" remote="github" />
+  <project name="fergy/sc20-manifest" path="layers/meta-rpb" remote="github" />
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github"/>
   <project name="git/meta-intel" path="layers/meta-intel" remote="yocto"/>
   <project name="git/meta-ti" path="layers/meta-ti" remote="yocto">
