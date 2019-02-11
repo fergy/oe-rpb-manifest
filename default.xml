@@ -10,7 +10,7 @@
   <default revision="morty" sync-j="2"/>
   
   <project name="fergy/meta-96boards" path="layers/meta-96boards" remote="github"/>
-  <project name="fergy/oe-rpb-manifest" path="layers/meta-rpb" remote="github" branch="sc20"/>
+  <project name="fergy/sc20-manifest" path="layers/meta-rpb" remote="github" branch="sc20"/>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github" revision="1b4f1e588b1901d8919ea2362b0fcba37c5023e0"/>
   <project name="cpriouzeau/meta-st-cannes2" path="layers/meta-st-cannes2" remote="github"/>
   <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
