@@ -10,11 +10,12 @@
   <default revision="sumo" sync-j="1"/>
   
   <project name="fergy/sc20-manifest" path="layers/meta-rpb" remote="github" branch="sumo" />
-    <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github" revision="3322d838f29be9a62eea8a846f0c6d4e86ccd0ae"/>
   <project name="advancedtelematic/meta-updater" path="layers/meta-updater" remote="github"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
-  <project name="kraj/meta-clang" path="layers/meta-clang" remote="github"/>
+  <project name="kraj/meta-clang" path="layers/meta-clang" remote="github">
+    <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
+  </project>
   <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github"/>
   <project name="fergy/meta-sc20" path="layers/meta-sc20" remote="github" branch="sumo" />
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.38"/>
