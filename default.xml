@@ -7,17 +7,14 @@
   <remote fetch="http://git.shr-project.org" name="shr"/>
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
   
-  <default revision="sumo" sync-j="4"/>
+  <default revision="sumo" sync-j="2"/>
   
   <project name="fergy/meta-96boards" path="layers/meta-96boards" branch="sumo" />
-  <project name="fergy/oe-rpb-manifest" path="layers/meta-rpb" remote="github" branch="sumo" />
+  <project name="fergy/sc20-manifest" path="layers/meta-rpb" remote="github" branch="sumo" />
     <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github" revision="3322d838f29be9a62eea8a846f0c6d4e86ccd0ae"/>
   <project name="advancedtelematic/meta-updater" path="layers/meta-updater" remote="github"/>
-  <project name="cpriouzeau/meta-st-cannes2" path="layers/meta-st-cannes2" remote="github"/>
-  <project name="git/meta-intel" path="layers/meta-intel" remote="yocto"/>
-  <project name="git/meta-ti" path="layers/meta-ti" remote="yocto" revision="cad0618a55da9229426b66fae0cdbb2bc2dca348"/>
   <project name="git/meta-virtualization" path="layers/meta-virtualization" remote="yocto"/>
   <project name="kraj/meta-clang" path="layers/meta-clang" remote="github"/>
   <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github"/>

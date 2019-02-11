@@ -4,9 +4,13 @@ The Linaro OpenEmbedded RPB project provides a reference implementation of an Op
 
 ## Maintainers
 
-* Koen Kooi <mailto:koen.kooi@linaro.org>
+* Koen Kooi <mailto: koen.kooi@linaro.org>
 * Nicolas Dechesne <nicolas.dechesne@linaro.org>
-* Fathi Boudra <mailto:fathi.boudra@linaro.org>
+* Fathi Boudra <mailto: fathi.boudra@linaro.org>
+
+## SC20 board
+* Ramon-Tomislav Rebersak <mailto: ramon.rebersak@gmail.com>
+* Sooraj Sizon <mailto: sooorajjj@gmail.com>
 
 ## Support
 
@@ -61,7 +65,7 @@ chmod a+x ~/bin/repo
 ```
 Run repo init to bring down the latest version of Repo with all its most recent bug fixes. You must specify a URL for the manifest, which specifies where the various repositories included in the Android source will be placed within your working directory. To check out the current branch, specify it with -b:
 ```
-repo init -u https://github.com/96boards/oe-rpb-manifest.git -b master
+repo init -u https://github.com/fergy/sc20-manifest.git -b sumo
 ```
 When prompted, configure Repo with your real name and email address.
 
@@ -125,7 +129,7 @@ To run the setup script:
 
 And follow the instructions. If you already know the value for MACHINE and DISTRO, it is possible to set them as environment variables, e.g. 
 
-    $ MACHINE=dragonboard-410c DISTRO=rpb source setup-environment
+    $ MACHINE=sc20 DISTRO=rpb source setup-environment
 
 ## Build a minimal, console-only image
 
@@ -213,7 +217,9 @@ It is safe to use such a setup, and OpenEmbedded will work fine!
 
 ### How to clean with bitbake
 
-TBD
+    bitbake -c clean TARGET
+    bitbake TARGET
+where TARGET is the name of the appropriate package or target e.g. "virtual/kernel" for the kernel, an image, etc.
  
 
 
