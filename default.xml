@@ -26,5 +26,5 @@
   <project name="openembedded/meta-backports" path="layers/meta-backports" remote="linaro"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
   <project name="openembedded/meta-openembedded" path="layers/meta-openembedded" remote="github"/>
-  <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
+  <project name="fergy/openembedded-core" path="layers/openembedded-core" remote="github" branch="sumo"/>
 </manifest>
