@@ -40,6 +40,7 @@ Setup Environment
 -----------------
 
 MACHINE values can be:
+* sc20
 * dragonboard-410c
 * hikey
 
@@ -51,7 +52,7 @@ DISTRO values can be:
 . setup-environment
 MACHINE=<machine> DISTRO=<distro> bitbake <image>
 ```
-e.g. MACHINE=hikey DISTRO=rpb bitbake core-image-minimal
+e.g. MACHINE=sc20 DISTRO=rpb bitbake core-image-minimal
 
 Creating a local topic branch
 -----------------------------
@@ -77,6 +78,10 @@ If you find any bugs please report them here
 
 https://github.com/96boards/oe-rpb-manifest/issues
 
+For SC20 board here
+
+https:github.com/fergy/oe-rpb-manifest/issues
+
 If you have questions or feedback, please subscribe to
 
 https://lists.linaro.org/mailman/listinfo/openembedded
@@ -84,6 +89,8 @@ https://lists.linaro.org/mailman/listinfo/openembedded
 Maintainers
 -------------------------
 
-* Koen Kooi <mailto:koen.kooi@linaro.org>
+* Koen Kooi <mailto: koen.kooi@linaro.org>
 * Nicolas Dechesne <nicolas.dechesne@linaro.org>
-* Fathi Boudra <mailto:fathi.boudra@linaro.org>
+* Fathi Boudra <mailto: fathi.boudra@linaro.org>
+* Ramon-Tomislav Rebersak (for SC20 board) <mailto: ramon.rebersak@gmail.com>
+* Sooraj Sizon (for SC20 board) <mailto: sooorajjj@gmail.com>
