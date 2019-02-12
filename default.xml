@@ -17,7 +17,7 @@
     <linkfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
   </project>
   <project name="meta-qt5/meta-qt5" path="layers/meta-qt5" remote="github"/>
-  <project name="ndechesne/meta-sc20" path="layers/meta-sc20" remote="github"/>
+  <project name="fergy/meta-sc20" path="layers/meta-sc20" remote="github"/>
   <project name="openembedded/bitbake" path="bitbake" remote="github" revision="1.38"/>
   <project name="openembedded/meta-backports" path="layers/meta-backports" remote="linaro"/>
   <project name="openembedded/meta-linaro" path="layers/meta-linaro" remote="linaro"/>
